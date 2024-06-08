@@ -1,0 +1,48 @@
+body {
+	background: #F7E7CE;
+	font-family: Alexandria;
+	font-size: 22px;
+	margin: 0;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	display: block;
+	background: #000080;
+	color: white;
+	padding: 15px;
+}
+
+.header-title {
+	display: flex;
+	float: left;
+
+	img {
+		height: 110px;
+		width: 110px;
+		margin-right: 20px;
+	}
+}
+
+.header-links {
+	float: right;
+	margin-right: 45px;
+	margin-top: 40px;
+	font-size: 30px;
+
+	a {
+		color: white;
+		margin-left: 20px;
+	}
+
+	a:hover {
+		color: #F7E7CE;
+	}
+
+}
+
+.content {
+	padding-top: 130px;
+}
